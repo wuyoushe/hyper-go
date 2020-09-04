@@ -10,8 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/griffin702/ginana/library/conf/paladin"
+	// "github.com/griffin702/ginana/library/conf/paladin"
 	"github.com/philchia/agollo"
+	"github.com/wuyoushe/hyper-go/library/config/paladin"
 )
 
 var (
