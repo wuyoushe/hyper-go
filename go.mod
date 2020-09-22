@@ -20,6 +20,7 @@ require (
 	github.com/griffin702/service v1.2.9
 	github.com/iris-contrib/middleware/cors v0.0.0-20191219204441-78279b78a367
 	github.com/jinzhu/gorm v1.9.11
+	github.com/kataras/golog v0.0.10
 	github.com/kataras/iris/v12 v12.1.2
 	github.com/lestrrat/go-file-rotatelogs v0.0.0-20180223000712-d3151e2a480f
 	github.com/llgcode/draw2d v0.0.0-20200110163050-b96d8208fcfc

@@ -3,7 +3,7 @@ package paladin_test
 import (
 	"testing"
 
-	"github.com/griffin702/ginana/library/conf/paladin"
+	"github.com/wuyoushe/hyper-go/library/conf/paladin"
 
 	"github.com/stretchr/testify/assert"
 )

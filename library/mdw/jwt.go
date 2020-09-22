@@ -1,6 +1,6 @@
 package mdw
 
-import "github.com/griffin702/service/jwt-iris"
+import "github.com/wuyoushe/hyper-go/service/jwt-iris"
 
 /**
  * jwt中间件

@@ -4,9 +4,6 @@ import (
 	"bytes"
 	"crypto/rand"
 	"encoding/base64"
-	"github.com/golang/freetype"
-	"github.com/llgcode/draw2d"
-	"github.com/llgcode/draw2d/draw2dimg"
 	"image"
 	"image/color"
 	"image/png"
@@ -16,6 +13,10 @@ import (
 	"math/big"
 	"strconv"
 	"strings"
+
+	"github.com/golang/freetype"
+	"github.com/llgcode/draw2d"
+	"github.com/llgcode/draw2d/draw2dimg"
 )
 
 const (

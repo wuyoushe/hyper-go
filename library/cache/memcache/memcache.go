@@ -2,10 +2,13 @@ package memcache
 
 import (
 	"encoding/json"
+
 	mc "github.com/bradfitz/gomemcache/memcache"
-	xtime "github.com/griffin702/ginana/library/time"
+
 	"reflect"
 	"time"
+
+	xtime "github.com/wuyoushe/hyper-go/library/time"
 )
 
 // Config memcache config.

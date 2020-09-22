@@ -2,13 +2,14 @@ package database
 
 import (
 	"fmt"
-	_ "github.com/go-sql-driver/mysql"
-	glog "github.com/griffin702/ginana/library/log"
-	xtime "github.com/griffin702/ginana/library/time"
-	"github.com/jinzhu/gorm"
 	"log"
 	"strings"
 	"time"
+
+	_ "github.com/go-sql-driver/mysql"
+	"github.com/jinzhu/gorm"
+	glog "github.com/wuyoushe/hyper-go/library/log"
+	xtime "github.com/wuyoushe/hyper-go/library/time"
 )
 
 // Config mysql config.

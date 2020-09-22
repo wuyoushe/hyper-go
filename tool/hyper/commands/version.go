@@ -6,8 +6,7 @@ import (
 	"runtime"
 	"time"
 
-	// "github.com/griffin702/service/tools"
-	"hyper-go/tool/hyper/service/tools"
+	"github.com/wuyoushe/hyper-go/tool/hyper/service/tools"
 )
 
 var (

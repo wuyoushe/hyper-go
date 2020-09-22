@@ -3,8 +3,9 @@ package paladin_test
 import (
 	"context"
 	"fmt"
-	"github.com/griffin702/ginana/library/conf/paladin"
-	"github.com/griffin702/ginana/library/conf/paladin/apollo"
+
+	"github.com/wuyoushe/hyper-go/library/conf/paladin"
+	"github.com/wuyoushe/hyper-go/library/conf/paladin/apollo"
 
 	"github.com/BurntSushi/toml"
 )
