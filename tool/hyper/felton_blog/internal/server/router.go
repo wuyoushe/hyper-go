@@ -1,13 +1,13 @@
 package server
 
 import (
-	"github.com/griffin702/ginana/library/mdw"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/mvc"
+	"github.com/wuyoushe/hyper-go/library/mdw"
 
-	"hyper-go/tool\hyper/felton_blog/internal/config"
-	"hyper-go/tool\hyper/felton_blog/internal/controller/api"
-	"hyper-go/tool\hyper/felton_blog/internal/service"
+	"github.com/wuyoushe/hyper-go/tool/hyper/felton_blog/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/felton_blog/internal/controller/api"
+	"github.com/wuyoushe/hyper-go/tool/hyper/felton_blog/internal/service"
 )
 
 func InitRouter(svc service.Service, cfg *config.Config) (e *iris.Application, err error) {

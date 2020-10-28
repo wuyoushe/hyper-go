@@ -1,9 +1,10 @@
 package main
 
 import (
-	"hyper-go/tool/hyper/commands"
 	"log"
 	"os"
+
+	"github.com/wuyoushe/hyper-go/tool/hyper/commands"
 
 	"github.com/urfave/cli/v2"
 )

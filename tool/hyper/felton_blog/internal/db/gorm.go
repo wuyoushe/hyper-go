@@ -1,12 +1,12 @@
 package db
 
 import (
-	"github.com/griffin702/ginana/library/conf/paladin"
-	"github.com/griffin702/ginana/library/database"
 	"github.com/jinzhu/gorm"
+	"github.com/wuyoushe/hyper-go/library/conf/paladin"
+	"github.com/wuyoushe/hyper-go/library/database"
 
-	"hyper-go/tool\hyper/felton_blog/internal/config"
-	"hyper-go/tool\hyper/felton_blog/internal/model"
+	"github.com/wuyoushe/hyper-go/tool/hyper/felton_blog/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/felton_blog/internal/model"
 )
 
 func NewDB(cfg *config.Config) (db *gorm.DB, err error) {

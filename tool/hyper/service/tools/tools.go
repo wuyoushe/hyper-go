@@ -21,7 +21,7 @@ import (
 
 	jwtGo "github.com/dgrijalva/jwt-go"
 	"github.com/google/uuid"
-	"github.com/wuyoushe/hyper-go/tool/hyper/service/captcha/"
+	"github.com/wuyoushe/hyper-go/tool/hyper/service/captcha"
 	"github.com/wuyoushe/hyper-go/tool/hyper/service/jwt-iris"
 	"golang.org/x/crypto/bcrypt"
 	"golang.org/x/text/encoding/simplifiedchinese"

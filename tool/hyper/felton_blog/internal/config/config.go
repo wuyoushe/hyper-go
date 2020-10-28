@@ -2,12 +2,13 @@ package config
 
 import (
 	"context"
+
 	"github.com/BurntSushi/toml"
-	"github.com/griffin702/ginana/library/cache/memcache"
-	"github.com/griffin702/ginana/library/conf/paladin"
-	"github.com/griffin702/ginana/library/database"
-	"github.com/griffin702/ginana/library/log"
-	xtime "github.com/griffin702/ginana/library/time"
+	"github.com/wuyoushe/hyper-go/library/cache/memcache"
+	"github.com/wuyoushe/hyper-go/library/conf/paladin"
+	"github.com/wuyoushe/hyper-go/library/database"
+	"github.com/wuyoushe/hyper-go/library/log"
+	xtime "github.com/wuyoushe/hyper-go/library/time"
 )
 
 var (

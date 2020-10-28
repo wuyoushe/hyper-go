@@ -2,12 +2,13 @@ package wire
 
 import (
 	"context"
-	"github.com/casbin/casbin/v2"
-	"github.com/griffin702/ginana/library/log"
 	"net/http"
 	"time"
 
-	"hyper-go/tool\hyper/felton_blog/internal/service"
+	"github.com/casbin/casbin/v2"
+	"github.com/wuyoushe/hyper-go/library/log"
+
+	"github.com/wuyoushe/hyper-go/tool/hyper/felton_blog/internal/service"
 )
 
 type App struct {

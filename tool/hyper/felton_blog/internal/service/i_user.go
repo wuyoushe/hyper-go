@@ -2,11 +2,12 @@ package service
 
 import (
 	"context"
-	"github.com/griffin702/ginana/library/database"
-	"github.com/griffin702/ginana/library/ecode"
 	"sync"
 
-	"hyper-go/tool\hyper/felton_blog/internal/model"
+	"github.com/wuyoushe/hyper-go/library/database"
+	"github.com/wuyoushe/hyper-go/library/ecode"
+
+	"github.com/wuyoushe/hyper-go/tool/hyper/felton_blog/internal/model"
 )
 
 func (s *service) GetEFUsers(c context.Context) (users []*database.EFUseRole, err error) {
@@ -21,14 +22,16 @@ func (s *service) GetEFUsers(c context.Context) (users []*database.EFUseRole, er
 			if err != nil {
 				return
 			}
-			ch &lt;- userId
+			ch & lt
+			-userId
 			for _, role := range u.Roles {
 				user := new(database.EFUseRole)
 				user.UserID = u.ID
 				user.RoleName = role.RoleName
 				*users = append(*users, user)
 			}
-			&lt;-ch
+			&lt
+			-ch
 			wg.Done()
 		}(userId, &users, &wg)
 	}

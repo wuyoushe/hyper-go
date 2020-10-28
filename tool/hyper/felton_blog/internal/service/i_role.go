@@ -2,11 +2,12 @@ package service
 
 import (
 	"context"
-	"github.com/griffin702/ginana/library/database"
-	"github.com/griffin702/ginana/library/ecode"
 	"sync"
 
-	"hyper-go/tool\hyper/felton_blog/internal/model"
+	"github.com/wuyoushe/hyper-go/library/database"
+	"github.com/wuyoushe/hyper-go/library/ecode"
+
+	"github.com/wuyoushe/hyper-go/tool/hyper/felton_blog/internal/model"
 )
 
 func (s *service) GetEFRoles(c context.Context) (roles []*database.EFRolePolicy, err error) {
@@ -21,7 +22,8 @@ func (s *service) GetEFRoles(c context.Context) (roles []*database.EFRolePolicy,
 			if err != nil {
 				return
 			}
-			ch &lt;- roleId
+			ch & lt
+			-roleId
 			for _, policy := range r.Policys {
 				role := new(database.EFRolePolicy)
 				role.RoleName = r.RoleName
@@ -29,7 +31,8 @@ func (s *service) GetEFRoles(c context.Context) (roles []*database.EFRolePolicy,
 				role.Method = policy.Method
 				*roles = append(*roles, role)
 			}
-			&lt;-ch
+			&lt
+			-ch
 			wg.Done()
 		}(roleId, &roles, &wg)
 	}

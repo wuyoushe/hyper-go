@@ -1,10 +1,10 @@
 package db
 
 import (
-	"github.com/griffin702/ginana/library/cache/memcache"
-	"github.com/griffin702/ginana/library/conf/paladin"
+	"github.com/wuyoushe/hyper-go/library/cache/memcache"
+	"github.com/wuyoushe/hyper-go/library/conf/paladin"
 
-	"hyper-go/tool\hyper/felton_blog/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/felton_blog/internal/config"
 )
 
 func NewMC(cfg *config.Config) (mc memcache.Memcache, err error) {

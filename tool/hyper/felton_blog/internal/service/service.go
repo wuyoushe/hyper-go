@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 	"github.com/casbin/casbin/v2"
-	"github.com/griffin702/ginana/library/cache/memcache"
-	"github.com/griffin702/ginana/library/database"
-	"github.com/griffin702/service/tools"
 	"github.com/jinzhu/gorm"
+	"github.com/wuyoushe/hyper-go/library/cache/memcache"
+	"github.com/wuyoushe/hyper-go/library/database"
+	"github.com/wuyoushe/hyper-go/service/tools"
 
-	"hyper-go/tool\hyper/felton_blog/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/felton_blog/internal/config"
 )
 
 type Service interface {

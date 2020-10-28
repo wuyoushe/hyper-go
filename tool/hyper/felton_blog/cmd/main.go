@@ -1,17 +1,18 @@
 package main
 
 import (
-	"github.com/griffin702/ginana/library/conf/paladin"
-	"github.com/griffin702/ginana/library/log"
 	"net/http"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
 
+	"github.com/griffin702/ginana/library/conf/paladin"
+	"github.com/griffin702/ginana/library/log"
+
 	// _ "hyper-go/tool\hyper/felton_blog/docs" // 使用Swagger时打开
-	"hyper-go/tool\hyper/felton_blog/internal/config"
-	"hyper-go/tool\hyper/felton_blog/internal/wire"
+	"hyper-go/tool/hyper/felton_blog/internal/config"
+	"hyper-go/tool/hyper/felton_blog/internal/wire"
 )
 
 // @title GiNana
@@ -39,7 +40,8 @@ func main() {
 		ch := make(chan os.Signal, 1)
 		signal.Notify(ch, syscall.SIGHUP, syscall.SIGINT, syscall.SIGKILL, syscall.SIGTERM, syscall.SIGQUIT)
 		for {
-			s := &lt;-ch
+			s := &lt
+			-ch
 			log.Infof("get a signal %s", s.String())
 			switch s {
 			case syscall.SIGINT, syscall.SIGTERM, syscall.SIGQUIT:
