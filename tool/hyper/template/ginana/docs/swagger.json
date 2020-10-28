@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "description": "基于iris的api服务，默认端口：8000",
-    "title": "GiNana",
+    "title": "HyperGo",
     "contact": {},
     "license": {
       "name": "Apache 2.0"

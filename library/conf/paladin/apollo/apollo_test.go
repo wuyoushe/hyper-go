@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/griffin702/ginana/library/conf/paladin/apollo/internal/mockserver"
+	"github.com/wuyoushe/hyper-go/library/conf/paladin/apollo/internal/mockserver"
 )
 
 func TestMain(m *testing.M) {

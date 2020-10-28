@@ -17,7 +17,7 @@ require (
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
 	github.com/google/uuid v1.1.1
 	github.com/griffin702/ginana v1.6.9
-	github.com/griffin702/service v1.2.9
+	github.com/wuyoushe/hyper-go/service v1.2.9
 	github.com/iris-contrib/middleware/cors v0.0.0-20191219204441-78279b78a367
 	github.com/jinzhu/gorm v1.9.11
 	github.com/kataras/golog v0.0.10

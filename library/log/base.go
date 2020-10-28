@@ -1,13 +1,14 @@
 package log
 
 import (
-	"github.com/griffin702/ginana/library/log/hook"
-	rotatelogs "github.com/lestrrat/go-file-rotatelogs"
-	"github.com/sirupsen/logrus"
-	"github.com/ulricqin/goutils/filetool"
 	"io"
 	"os"
 	"time"
+
+	rotatelogs "github.com/lestrrat/go-file-rotatelogs"
+	"github.com/sirupsen/logrus"
+	"github.com/ulricqin/goutils/filetool"
+	"github.com/wuyoushe/hyper-go/library/log/hook"
 )
 
 var (
