@@ -2,14 +2,14 @@ package db
 
 import (
 	"context"
+	"time"
+
 	"github.com/casbin/casbin/v2"
 	"github.com/wuyoushe/hyper-go/library/conf/paladin"
 	"github.com/wuyoushe/hyper-go/library/database"
 	"github.com/wuyoushe/hyper-go/library/log"
-	"time"
-
-	"github.com/wuyoushe/hyper-go/tool\hyper/new_blog/internal/config"
-	"github.com/wuyoushe/hyper-go/tool\hyper/new_blog/internal/service"
+	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/service"
 )
 
 // NewCasbin after Service, and SetEnforcer for service

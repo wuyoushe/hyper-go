@@ -2,21 +2,22 @@ package server
 
 import (
 	"fmt"
-	"github.com/wuyoushe/hyper-go/library/conf/paladin"
-	"github.com/wuyoushe/hyper-go/library/log"
-	"github.com/wuyoushe/hyper-go/library/mdw"
-	"github.com/wuyoushe/hyper-go/service/tools"
-	"github.com/kataras/golog"
-	"github.com/kataras/iris/v12"
-	"github.com/kataras/iris/v12/middleware/logger"
-	"github.com/kataras/iris/v12/middleware/recover"
 	"html/template"
 	"net/http"
 	"strings"
 	"time"
 
-	"github.com/wuyoushe/hyper-go/tool\hyper/new_blog/internal/config"
-	"github.com/wuyoushe/hyper-go/tool\hyper/new_blog/internal/model"
+	"github.com/kataras/golog"
+	"github.com/kataras/iris/v12"
+	"github.com/kataras/iris/v12/middleware/logger"
+	"github.com/kataras/iris/v12/middleware/recover"
+	"github.com/wuyoushe/hyper-go/library/conf/paladin"
+	"github.com/wuyoushe/hyper-go/library/log"
+	"github.com/wuyoushe/hyper-go/library/mdw"
+	"github.com/wuyoushe/hyper-go/service/tools"
+
+	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/model"
 )
 
 func NewHttpServer(irisApp *iris.Application, cfg *config.Config) (h *http.Server, err error) {
@@ -86,7 +87,7 @@ func initStaticDir(e *iris.Application, cfg *config.Config) {
 		path := strings.Split(v, ":")
 		if len(path) == 2 {
 			e.HandleDir(path[0], path[1], iris.DirOptions{
-				Gzip: true,
+				Gzip:     true,
 				ShowList: false,
 			})
 		}

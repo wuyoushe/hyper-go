@@ -6,10 +6,10 @@ package wire
 import (
 	"github.com/google/wire"
 
-	"github.com/wuyoushe/hyper-go/tool\hyper/new_blog/internal/config"
-	"github.com/wuyoushe/hyper-go/tool\hyper/new_blog/internal/db"
-	"github.com/wuyoushe/hyper-go/tool\hyper/new_blog/internal/server"
-	"github.com/wuyoushe/hyper-go/tool\hyper/new_blog/internal/service"
+	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/db"
+	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/server"
+	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/service"
 )
 
 var initProvider = wire.NewSet(config.NewConfig, db.NewDB, db.NewMC)

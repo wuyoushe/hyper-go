@@ -4,7 +4,7 @@ import (
 	"github.com/wuyoushe/hyper-go/library/cache/memcache"
 	"github.com/wuyoushe/hyper-go/library/conf/paladin"
 
-	"github.com/wuyoushe/hyper-go/tool\hyper/new_blog/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/config"
 )
 
 func NewMC(cfg *config.Config) (mc memcache.Memcache, err error) {

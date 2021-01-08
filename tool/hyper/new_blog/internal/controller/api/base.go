@@ -3,8 +3,8 @@ package api
 import (
 	"github.com/kataras/iris/v12"
 
-	"github.com/wuyoushe/hyper-go/tool\hyper/new_blog/internal/model"
-	"github.com/wuyoushe/hyper-go/tool\hyper/new_blog/internal/service"
+	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/model"
+	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/service"
 )
 
 type CApi struct {

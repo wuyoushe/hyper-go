@@ -14,6 +14,7 @@ func main() {
 	app.Name = "Hyper"
 	app.Usage = "工具集"
 	app.Version = commands.GetVersion()
+
 	app.Authors = []*cli.Author{{
 		Name:  "Felton",
 		Email: "Wudadongfen@126.com",

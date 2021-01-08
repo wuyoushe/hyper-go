@@ -25,6 +25,7 @@ type VersionOptions struct {
 var versionTemplate = `Version:{{.Version}} | Go version: {{.GoVersion}} | BuildTime: {{.BuildTime}} | OS/Arch: {{.OS}}/ {{.Arch}}`
 
 func GetVersion() string {
+
 	var doc bytes.Buffer
 	vo := VersionOptions{
 		Version:   Version,
