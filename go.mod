@@ -22,9 +22,8 @@ require (
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
 	github.com/google/subcommands v1.2.0 // indirect
 	github.com/google/uuid v1.1.4
-	github.com/google/wire v0.4.0 // indirect
-	github.com/griffin702/ginana v1.6.9
-	github.com/griffin702/service v1.2.9
+	github.com/google/wire v0.4.0
+	github.com/griffin702/ginana v1.6.9 // indirect
 	github.com/iris-contrib/jade v1.1.4 // indirect
 	github.com/iris-contrib/middleware/cors v0.0.0-20191219204441-78279b78a367
 	github.com/iris-contrib/schema v0.0.6 // indirect
