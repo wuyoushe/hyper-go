@@ -5,8 +5,8 @@ import (
 	"github.com/wuyoushe/hyper-go/library/conf/paladin"
 	"github.com/wuyoushe/hyper-go/library/database"
 
-	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/config"
-	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/model"
+	"github.com/wuyoushe/hyper-go/tool/hyper/test/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/test/internal/model"
 )
 
 func NewDB(cfg *config.Config) (db *gorm.DB, err error) {

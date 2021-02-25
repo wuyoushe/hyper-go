@@ -7,7 +7,7 @@ import (
 	"github.com/wuyoushe/hyper-go/library/database"
 	"github.com/wuyoushe/hyper-go/library/ecode"
 
-	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/model"
+	"github.com/wuyoushe/hyper-go/tool/hyper/test/internal/model"
 )
 
 func (s *service) GetEFUsers(c context.Context) (users []*database.EFUseRole, err error) {
@@ -22,14 +22,16 @@ func (s *service) GetEFUsers(c context.Context) (users []*database.EFUseRole, er
 			if err != nil {
 				return
 			}
-			ch <- userId
+			ch & lt
+			-userId
 			for _, role := range u.Roles {
 				user := new(database.EFUseRole)
 				user.UserID = u.ID
 				user.RoleName = role.RoleName
 				*users = append(*users, user)
 			}
-			<-ch
+			&lt
+			-ch
 			wg.Done()
 		}(userId, &users, &wg)
 	}

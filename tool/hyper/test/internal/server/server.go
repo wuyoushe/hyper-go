@@ -16,8 +16,8 @@ import (
 	"github.com/wuyoushe/hyper-go/library/mdw"
 	"github.com/wuyoushe/hyper-go/service/tools"
 
-	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/config"
-	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/model"
+	"github.com/wuyoushe/hyper-go/tool/hyper/test/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/test/internal/model"
 )
 
 func NewHttpServer(irisApp *iris.Application, cfg *config.Config) (h *http.Server, err error) {

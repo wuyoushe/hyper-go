@@ -8,7 +8,7 @@ import (
 	"github.com/casbin/casbin/v2"
 	"github.com/wuyoushe/hyper-go/library/log"
 
-	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/service"
+	"github.com/wuyoushe/hyper-go/tool/hyper/test/internal/service"
 )
 
 type App struct {

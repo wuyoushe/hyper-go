@@ -8,8 +8,9 @@ import (
 	"github.com/wuyoushe/hyper-go/library/conf/paladin"
 	"github.com/wuyoushe/hyper-go/library/database"
 	"github.com/wuyoushe/hyper-go/library/log"
-	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/config"
-	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/service"
+
+	"github.com/wuyoushe/hyper-go/tool/hyper/test/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/test/internal/service"
 )
 
 // NewCasbin after Service, and SetEnforcer for service

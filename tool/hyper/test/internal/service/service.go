@@ -8,9 +8,9 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/wuyoushe/hyper-go/library/cache/memcache"
 	"github.com/wuyoushe/hyper-go/library/database"
-	"github.com/wuyoushe/hyper-go/tool/hyper/service/tools"
+	"github.com/wuyoushe/hyper-go/service/tools"
 
-	"github.com/wuyoushe/hyper-go/tool/hyper/new_blog/internal/config"
+	"github.com/wuyoushe/hyper-go/tool/hyper/test/internal/config"
 )
 
 type Service interface {
