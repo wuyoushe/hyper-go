@@ -9,10 +9,10 @@ import (
 
 	"github.com/wuyoushe/hyper-go/library/conf/paladin"
 	"github.com/wuyoushe/hyper-go/library/log"
-
-	// _ "github.com/wuyoushe/hyper-go/tool\hyper/test/docs" // 使用Swagger时打开
 	"github.com/wuyoushe/hyper-go/tool/hyper/test/internal/config"
-	"github.com/wuyoushe/hyper-go/tool/hyper/test/internal/wire"
+	// _ "github.com/wuyoushe/hyper-go/tool\hyper/test/docs" // 使用Swagger时打开
+	// "github.com/wuyoushe/hyper-go/tool/hyper/test/internal/config"
+	// "github.com/wuyoushe/hyper-go/tool/hyper/test/internal/wire"
 )
 
 // @title GiNana
